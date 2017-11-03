@@ -30,6 +30,12 @@ My implementation follows the general processing flow (as per the project skelet
 	- For RADAR calculate the Jacobian and call the Update Extended Kalman Filter, which converts from Polar coordinates.
 	- For LIDAR call the Update Kalman Filter
 	
+Below are the main files updated:
+
+1- kalman_filter.cpp. Completed the Update and UpdateEKF methods
+2- FusionEKF.cpp. Populated initialisation, prediction and basic update flow.
+3. tools.cpp. Added the body to the RMSE and Jacobian methods
+	
 	
 ## Code Efficency
 
