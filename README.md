@@ -4,11 +4,11 @@ Self-Driving Car Engineer Nanodegree Program
 This document describes my solution for the Udacity Extended Kalman Filter project in term 2 of the SDC nano degree
 
 
-##Compiling
+## Compiling
 
 The project can be compiled by execting make in the build directory
 
-##Accuracy
+## Accuracy
 
 When run against the simulator using Dataset 1, my implementation acheives a final RMSE of:
 X: 0.0973
@@ -21,7 +21,7 @@ A screenshot can be seen below:
 
 This satisifies the required target of 0.11, .11, 0.52, 0.52 respectively.
 
-##Processing Flow
+## Processing Flow
 
 My implementation follows the general processing flow (as per the project skeleton code) of:
 - Initialisation. Including initialisation of the state vectors from the first measurements
@@ -31,7 +31,7 @@ My implementation follows the general processing flow (as per the project skelet
 	- For LIDAR call the Update Kalman Filter
 	
 	
-##Code Efficency
+## Code Efficency
 
 I have not fully optimised the code yet I planned to implement a method to contain the common functionality of the Update and UpdateEKF methods, but as yet I have not done this.
 
